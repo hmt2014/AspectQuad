@@ -63,7 +63,7 @@ def extract_spans_para(task, seq, seq_type):
 
                 result = []
                 for i in range(len(combined_list)):
-                    start = combined_list[i] + 3
+                    start = combined_list[i] + 4
                     sort_index = arg_index_list.index(i)
                     if sort_index < 3:
                         next_ = arg_index_list[sort_index + 1]
